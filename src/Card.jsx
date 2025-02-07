@@ -5,8 +5,8 @@ function Card(props){
     return(
         <div className="card">
             <img className="card-img" src={profilePic} alt="random pfp"></img>
-            <h2 className="card-title">Name: {props.name}</h2>
-            <p>{props.bio}</p>
+            <h3 className="card-title">{props.name}</h3>
+            <p>{props.major}{props.bio}</p>
             <p>Graduation Year: {props.gradYr}, Lead Scholar: {props.isLEAD ? "Yes" : "No"}</p>
         </div>
     );
@@ -21,7 +21,7 @@ Card.propTypes = {
 
 Card.defaultProps = {
     name: "John Smith",
-    bio: "Student at Santa Clara University",
+    bio: "Undeclared major student at Santa Clara University",
     gradYr: -1,
     isLEAD: false,
 }

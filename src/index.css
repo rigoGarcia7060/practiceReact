@@ -34,3 +34,11 @@
   margin: 0;
   color: rgb(255, 255, 255);
 }
+
+.title{
+  text-align: center;
+}
+
+.waitingCell{
+  border: 5px rgb(87, 13, 13)
+}
