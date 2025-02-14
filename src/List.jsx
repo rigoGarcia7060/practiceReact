@@ -8,7 +8,9 @@ function List(props){
                            {student.name} |
                            {student.major} |
                            {student.gradYr} |
-                           {student.isLEAD ? "LEAD": ""}</li>); 
+                           {student.isLEAD ? "LEAD": ""} 
+                           <button onClick={() => props.addToRoster(student)}>Add</button>
+                           </li>); 
     return(<>
            <ul>{formattedList}</ul>
            </>);
@@ -22,3 +24,4 @@ List.propTypes = {
 }
 
 export default List
+

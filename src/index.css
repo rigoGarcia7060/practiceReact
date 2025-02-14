@@ -38,7 +38,15 @@
 .title{
   text-align: center;
 }
+.waitingCell{
+  text-align: center;
+}
 
 .waitingCell{
   border: 5px rgb(87, 13, 13)
 }
+/*
+.roster{
+  text-align: center;
+}
+  */
