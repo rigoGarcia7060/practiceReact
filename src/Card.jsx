@@ -22,7 +22,7 @@ Card.propTypes = {
 
 Card.defaultProps = {
     name: "John Smith",
-    bio: "Undeclared major student at Santa Clara University",
+    bio: " student at Santa Clara University",
     gradYr: -1,
     isLEAD: false,
 }
